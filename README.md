@@ -69,7 +69,7 @@ Taking the example of *beauty, clothing → sports*, we have provided LoRA check
 │   ├── sports_clothing
 │   │   └── checkpoint-4170
 │   └── sports_beauty
-│       └── checkpoint-4170
+│       └── checkpoint-4950
 ```
 
 We also provide the target-domain test dataset on [Google Drive](https://drive.google.com/drive/folders/1b5_dQG1Wok9W4pRWZgkTY63E7MkzAti_?usp=drive_link).
@@ -102,5 +102,6 @@ sh scripts/metric.sh
 You'll need to specify the JSONL file with the LLM's outputs and the path to the test dataset. The script will compare the LLM's output with the ground truth from these two files to calculate the metrics.
 
 ## 6. Acknowledgements
+
 
 Our code is based on the implementation of [peft](https://github.com/huggingface/peft), [transformers](https://github.com/huggingface/transformers) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
